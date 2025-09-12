@@ -1,0 +1,1390 @@
+{
+  "data": [
+    {
+      "deposit_at": 1757516400000,
+      "trade_at": 1757521800000,
+      "exchange": "upbit",
+      "base": "LINEA",
+      "url": "https://upbit.com/service_center/notice?id=5503",
+      "network": null,
+      "announced_at": 1757490005000
+    },
+    {
+      "deposit_at": 1757484300000,
+      "trade_at": 1757491200000,
+      "exchange": "upbit",
+      "base": "OPEN",
+      "url": "https://upbit.com/service_center/notice?id=5498",
+      "network": null,
+      "announced_at": 1757478156000
+    },
+    {
+      "deposit_at": 1757480520000,
+      "trade_at": 1757491200000,
+      "exchange": "bithumb",
+      "base": "OPEN",
+      "url": "https://feed.bithumb.com/notice/1649828",
+      "network": null,
+      "announced_at": 1757473238000
+    },
+    {
+      "deposit_at": 1757498400000,
+      "trade_at": 1757521800000,
+      "exchange": "bithumb",
+      "base": "LINEA",
+      "url": "https://feed.bithumb.com/notice/1649828",
+      "network": null,
+      "announced_at": 1757473238000
+    },
+    {
+      "deposit_at": 1757419500000,
+      "trade_at": 1757421000000,
+      "exchange": "upbit",
+      "base": "WLD",
+      "url": "https://upbit.com/service_center/notice?id=5497",
+      "network": null,
+      "announced_at": 1757413269000
+    },
+    {
+      "deposit_at": 1757385600000,
+      "trade_at": 1757386800000,
+      "exchange": "upbit",
+      "base": "FLOCK",
+      "url": "https://upbit.com/service_center/notice?id=5494",
+      "network": "Base, Ethereum",
+      "announced_at": 1757385600000
+    },
+    {
+      "deposit_at": 1757058600000,
+      "trade_at": 1757060100000,
+      "exchange": "upbit",
+      "base": "RED",
+      "url": "https://upbit.com/service_center/notice?id=5486",
+      "network": "Ethereum",
+      "announced_at": 1757058300000
+    },
+    {
+      "deposit_at": 1757044800000,
+      "trade_at": 1757059200000,
+      "exchange": "bithumb",
+      "base": "EUL",
+      "url": "https://feed.bithumb.com/notice/1649812",
+      "network": null,
+      "announced_at": 1757041519000
+    },
+    {
+      "deposit_at": 1756706100000,
+      "trade_at": 1756710000000,
+      "exchange": "bithumb",
+      "base": "USD1",
+      "url": "https://feed.bithumb.com/notice/1649738",
+      "network": null,
+      "announced_at": 1756701311000
+    },
+    {
+      "deposit_at": 1756705800000,
+      "trade_at": 1756710000000,
+      "exchange": "upbit",
+      "base": "USD1",
+      "url": "https://upbit.com/service_center/notice?id=5463",
+      "network": null,
+      "announced_at": 1756699751000
+    },
+    {
+      "deposit_at": 1756729800000,
+      "trade_at": 1756731600000,
+      "exchange": "upbit",
+      "base": "WLFI",
+      "url": "https://upbit.com/service_center/notice?id=5462",
+      "network": null,
+      "announced_at": 1756699750000
+    },
+    {
+      "deposit_at": 1756711800000,
+      "trade_at": 1756731600000,
+      "exchange": "bithumb",
+      "base": "WLFI",
+      "url": "https://feed.bithumb.com/notice/1649737",
+      "network": null,
+      "announced_at": 1756696962000
+    },
+    {
+      "deposit_at": 1756449600000,
+      "trade_at": 1756458000000,
+      "exchange": "bithumb",
+      "base": "CAMP",
+      "url": "https://feed.bithumb.com/notice/1649672",
+      "network": null,
+      "announced_at": 1756444659000
+    },
+    {
+      "deposit_at": 1756362300000,
+      "trade_at": 1756364400000,
+      "exchange": "upbit",
+      "base": "TREE",
+      "url": "https://upbit.com/service_center/notice?id=5456",
+      "network": null,
+      "announced_at": 1756357200000
+    },
+    {
+      "deposit_at": 1756192860000,
+      "trade_at": 1756198800000,
+      "exchange": "bithumb",
+      "base": "SD",
+      "url": "https://feed.bithumb.com/notice/1649642",
+      "network": null,
+      "announced_at": 1756189292000
+    },
+    {
+      "deposit_at": 1755828000000,
+      "trade_at": 1755829800000,
+      "exchange": "upbit",
+      "base": "AERO",
+      "url": "https://upbit.com/service_center/notice?id=5442",
+      "network": null,
+      "announced_at": 1755822600000
+    },
+    {
+      "deposit_at": 1755588600000,
+      "trade_at": 1755590400000,
+      "exchange": "upbit",
+      "base": "API3",
+      "url": "https://upbit.com/service_center/notice?id=5429",
+      "network": null,
+      "announced_at": 1755588600000
+    },
+    {
+      "deposit_at": 1755582300000,
+      "trade_at": 1755590400000,
+      "exchange": "bithumb",
+      "base": "BIO",
+      "url": "https://feed.bithumb.com/notice/1649599",
+      "network": null,
+      "announced_at": 1755574166000
+    },
+    {
+      "deposit_at": 1755053100000,
+      "trade_at": 1755064800000,
+      "exchange": "bithumb",
+      "base": "TOWNS",
+      "url": "https://feed.bithumb.com/notice/1649534",
+      "network": null,
+      "announced_at": 1755049279000
+    },
+    {
+      "deposit_at": 1754983800000,
+      "trade_at": 1754985600000,
+      "exchange": "upbit",
+      "base": "CYBER",
+      "url": "https://upbit.com/service_center/notice?id=5409",
+      "network": null,
+      "announced_at": 1754983800000
+    },
+    {
+      "deposit_at": 1754636400000,
+      "trade_at": 1754643600000,
+      "exchange": "bithumb",
+      "base": "TREE",
+      "url": "https://feed.bithumb.com/notice/1649497",
+      "network": null,
+      "announced_at": 1754631913000
+    },
+    {
+      "deposit_at": 1754622900000,
+      "trade_at": 1754625600000,
+      "exchange": "upbit",
+      "base": "IP",
+      "url": "https://upbit.com/service_center/notice?id=5397",
+      "network": null,
+      "announced_at": 1754618979000
+    },
+    {
+      "deposit_at": 1754457000000,
+      "trade_at": 1754458200000,
+      "exchange": "upbit",
+      "base": "PROVE",
+      "url": "https://upbit.com/service_center/notice?id=5394",
+      "network": null,
+      "announced_at": 1754450460000
+    },
+    {
+      "deposit_at": 1754452800000,
+      "trade_at": 1754458200000,
+      "exchange": "bithumb",
+      "base": "PROVE",
+      "url": "https://feed.bithumb.com/notice/1649474",
+      "network": null,
+      "announced_at": 1754449202000
+    },
+    {
+      "deposit_at": 1753779000000,
+      "trade_at": 1753781400000,
+      "exchange": "upbit",
+      "base": "OMNI",
+      "url": "https://upbit.com/service_center/notice?id=5375",
+      "network": null,
+      "announced_at": 1753779000000
+    },
+    {
+      "deposit_at": 1753772400000,
+      "trade_at": 1753776000000,
+      "exchange": "bithumb",
+      "base": "C",
+      "url": "https://feed.bithumb.com/notice/1649398",
+      "network": null,
+      "announced_at": 1753757512000
+    },
+    {
+      "deposit_at": 1753681800000,
+      "trade_at": 1753687800000,
+      "exchange": "upbit",
+      "base": "OP",
+      "url": "https://upbit.com/service_center/notice?id=5368",
+      "network": null,
+      "announced_at": 1753676665000
+    },
+    {
+      "deposit_at": 1753419600000,
+      "trade_at": 1753423200000,
+      "exchange": "upbit",
+      "base": "SYRUP",
+      "url": "https://upbit.com/service_center/notice?id=5363",
+      "network": null,
+      "announced_at": 1753409990000
+    },
+    {
+      "deposit_at": 1753336800000,
+      "trade_at": 1753347600000,
+      "exchange": "bithumb",
+      "base": "MERL",
+      "url": "https://feed.bithumb.com/notice/1649353",
+      "network": null,
+      "announced_at": 1753325806000
+    },
+    {
+      "deposit_at": 1753336800000,
+      "trade_at": 1753340400000,
+      "exchange": "bithumb",
+      "base": "LISTA",
+      "url": "https://feed.bithumb.com/notice/1649353",
+      "network": null,
+      "announced_at": 1753325806000
+    },
+    {
+      "deposit_at": 1752753600000,
+      "trade_at": 1752768000000,
+      "exchange": "upbit",
+      "base": "ERA",
+      "url": "https://upbit.com/service_center/notice?id=5333",
+      "network": null,
+      "announced_at": 1752742897000
+    },
+    {
+      "deposit_at": 1752739200000,
+      "trade_at": 1752829200000,
+      "exchange": "coinone",
+      "base": "SOON",
+      "url": "https://coinone.co.kr/info/notice/4340",
+      "network": null,
+      "announced_at": 1752739208206
+    },
+    {
+      "deposit_at": 1752741000000,
+      "trade_at": 1752768000000,
+      "exchange": "bithumb",
+      "base": "ERA",
+      "url": "https://feed.bithumb.com/notice/1649278",
+      "network": null,
+      "announced_at": 1752733368000
+    },
+    {
+      "deposit_at": 1752652800000,
+      "trade_at": 1752714000000,
+      "exchange": "coinone",
+      "base": "PUMP",
+      "url": "https://coinone.co.kr/info/notice/4333",
+      "network": null,
+      "announced_at": 1752652805577
+    },
+    {
+      "deposit_at": 1752656400000,
+      "trade_at": 1752660000000,
+      "exchange": "bithumb",
+      "base": "ES",
+      "url": "https://feed.bithumb.com/notice/1649266",
+      "network": null,
+      "announced_at": 1752632354000
+    },
+    {
+      "deposit_at": 1752627600000,
+      "trade_at": 1752728400000,
+      "exchange": "coinone",
+      "base": "ES",
+      "url": "https://coinone.co.kr/info/notice/4331",
+      "network": null,
+      "announced_at": 1752627606175
+    },
+    {
+      "deposit_at": 1752221400000,
+      "trade_at": 1752224400000,
+      "exchange": "bithumb",
+      "base": "RESOLV",
+      "url": "https://feed.bithumb.com/notice/1649232",
+      "network": null,
+      "announced_at": 1752214566000
+    },
+    {
+      "deposit_at": 1752216300000,
+      "trade_at": 1720694400000,
+      "exchange": "upbit",
+      "base": "ENA",
+      "url": "https://upbit.com/service_center/notice?id=5314",
+      "network": null,
+      "announced_at": 1752208979000
+    },
+    {
+      "deposit_at": 1752118440000,
+      "trade_at": 1752134400000,
+      "exchange": "upbit",
+      "base": "HYPER",
+      "url": "https://upbit.com/service_center/notice?id=5305",
+      "network": "Ethereum",
+      "announced_at": 1752118201000
+    },
+    {
+      "deposit_at": 1752117600000,
+      "trade_at": 1752134400000,
+      "exchange": "bithumb",
+      "base": "HYPER",
+      "url": "https://feed.bithumb.com/notice/1649218",
+      "network": "Ethereum",
+      "announced_at": 1752113889000
+    },
+    {
+      "deposit_at": 1752109200000,
+      "trade_at": 1752224400000,
+      "exchange": "coinone",
+      "base": "LPT",
+      "url": "https://coinone.co.kr/info/notice/4299",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1752109208476
+    },
+    {
+      "deposit_at": 1751961600000,
+      "trade_at": 1752051600000,
+      "exchange": "coinone",
+      "base": "WIF",
+      "url": "https://coinone.co.kr/info/notice/4286",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1751961601242
+    },
+    {
+      "deposit_at": 1751875200000,
+      "trade_at": 1751965200000,
+      "exchange": "coinone",
+      "base": "OBT",
+      "url": "https://coinone.co.kr/info/notice/4283",
+      "network": "Arbitrum One",
+      "announced_at": 1751875209247
+    },
+    {
+      "deposit_at": 1751608800000,
+      "trade_at": 1751857200000,
+      "exchange": "coinone",
+      "base": "FANC",
+      "url": "https://coinone.co.kr/info/notice/4273",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1751608810184
+    },
+    {
+      "deposit_at": 1751529600000,
+      "trade_at": 1751619600000,
+      "exchange": "coinone",
+      "base": "NEWT",
+      "url": "https://coinone.co.kr/info/notice/4267",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1751529609233
+    },
+    {
+      "deposit_at": 1751536200000,
+      "trade_at": 1751536800000,
+      "exchange": "bithumb",
+      "base": "OM",
+      "url": "https://feed.bithumb.com/notice/1649160",
+      "network": "Ethereum, MANTRA",
+      "announced_at": 1751528999000
+    },
+    {
+      "deposit_at": 1751536200000,
+      "trade_at": 1751538600000,
+      "exchange": "bithumb",
+      "base": "H",
+      "url": "https://feed.bithumb.com/notice/1649160",
+      "network": "Ethereum, MANTRA",
+      "announced_at": 1751528999000
+    },
+    {
+      "deposit_at": 1751526000000,
+      "trade_at": 1751529600000,
+      "exchange": "upbit",
+      "base": "MOODENG",
+      "url": "https://upbit.com/service_center/notice?id=5285",
+      "network": "Solana",
+      "announced_at": 1751518021000
+    },
+    {
+      "deposit_at": 1751353260000,
+      "trade_at": 1751362200000,
+      "exchange": "coinone",
+      "base": "FRAG",
+      "url": "https://coinone.co.kr/info/notice/4241",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1751245345065
+    },
+    {
+      "deposit_at": 1751016600000,
+      "trade_at": 1751252400000,
+      "exchange": "coinone",
+      "base": "SAHARA",
+      "url": "https://coinone.co.kr/info/notice/4240",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1751016609166
+    },
+    {
+      "deposit_at": 1751004840000,
+      "trade_at": 1751011200000,
+      "exchange": "bithumb",
+      "base": "SYRUP",
+      "url": "https://feed.bithumb.com/notice/1649069",
+      "network": "Ethereum",
+      "announced_at": 1750994066000
+    },
+    {
+      "deposit_at": 1750993200000,
+      "trade_at": 1751338800000,
+      "exchange": "coinone",
+      "base": "PEAQ",
+      "url": "https://coinone.co.kr/info/notice/4234",
+      "network": "Peaq Mainnet",
+      "announced_at": 1750993206791
+    },
+    {
+      "deposit_at": 1750924800000,
+      "trade_at": 1751014800000,
+      "exchange": "coinone",
+      "base": "USDS",
+      "url": "https://coinone.co.kr/info/notice/4229",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1750924842823
+    },
+    {
+      "deposit_at": 1750928400000,
+      "trade_at": 1750942800000,
+      "exchange": "bithumb",
+      "base": "SAHARA",
+      "url": "https://feed.bithumb.com/notice/1649061",
+      "network": "Ethereum",
+      "announced_at": 1750906742000
+    },
+    {
+      "deposit_at": 1750928400000,
+      "trade_at": 1750942800000,
+      "exchange": "upbit",
+      "base": "SAHARA",
+      "url": "https://upbit.com/service_center/notice?id=5272",
+      "network": "Ethereum",
+      "announced_at": 1750905604000
+    },
+    {
+      "deposit_at": 1750840200000,
+      "trade_at": 1750906805000,
+      "exchange": "coinone",
+      "base": "H",
+      "url": "https://coinone.co.kr/info/notice/4226",
+      "network": null,
+      "announced_at": 1750840203531
+    },
+    {
+      "deposit_at": 1750773600000,
+      "trade_at": 1750777200000,
+      "exchange": "upbit",
+      "base": "NEWT",
+      "url": "https://upbit.com/service_center/notice?id=5268",
+      "network": "Ethereum",
+      "announced_at": 1750749953000
+    },
+    {
+      "deposit_at": 1750747200000,
+      "trade_at": 1750773600000,
+      "exchange": "bithumb",
+      "base": "NEWT",
+      "url": "https://feed.bithumb.com/notice/1649008",
+      "network": "BASE, Ethereum",
+      "announced_at": 1750735393000
+    },
+    {
+      "deposit_at": 1750746000000,
+      "trade_at": 1750755600000,
+      "exchange": "bithumb",
+      "base": "HOME",
+      "url": "https://feed.bithumb.com/notice/1649008",
+      "network": "BASE, Ethereum",
+      "announced_at": 1750735393000
+    },
+    {
+      "deposit_at": 1750399200000,
+      "trade_at": 1750669200000,
+      "exchange": "coinone",
+      "base": "STRAX",
+      "url": "https://coinone.co.kr/info/notice/4201",
+      "network": "Stratis Mainnet",
+      "announced_at": 1750399206016
+    },
+    {
+      "deposit_at": 1750312800000,
+      "trade_at": 1750388400000,
+      "exchange": "coinone",
+      "base": "AIXBT",
+      "url": "https://coinone.co.kr/info/notice/4196",
+      "network": "Base Mainnet",
+      "announced_at": 1750312805427
+    },
+    {
+      "deposit_at": 1750306800000,
+      "trade_at": 1750312800000,
+      "exchange": "bithumb",
+      "base": "HUMA",
+      "url": "https://feed.bithumb.com/notice/1648927",
+      "network": "Solana",
+      "announced_at": 1750299481000
+    },
+    {
+      "deposit_at": 1750306800000,
+      "trade_at": 1750320000000,
+      "exchange": "bithumb",
+      "base": "FORT",
+      "url": "https://feed.bithumb.com/notice/1648927",
+      "network": "Solana",
+      "announced_at": 1750299481000
+    },
+    {
+      "deposit_at": 1750293300000,
+      "trade_at": 1750302000000,
+      "exchange": "upbit",
+      "base": "RAY",
+      "url": "https://upbit.com/service_center/notice?id=5248",
+      "network": null,
+      "announced_at": 1750293303000
+    },
+    {
+      "deposit_at": 1750233600000,
+      "trade_at": 1750323600000,
+      "exchange": "coinone",
+      "base": "HOME",
+      "url": "https://coinone.co.kr/info/notice/4188",
+      "network": "Base Mainnet",
+      "announced_at": 1750233603673
+    },
+    {
+      "deposit_at": 1750150800000,
+      "trade_at": 1750156200000,
+      "exchange": "bithumb",
+      "base": "SPK",
+      "url": "https://feed.bithumb.com/notice/1648822",
+      "network": "Ethereum",
+      "announced_at": 1750144141000
+    },
+    {
+      "deposit_at": 1750064820000,
+      "trade_at": 1750068000000,
+      "exchange": "upbit",
+      "base": "ALT",
+      "url": "https://upbit.com/service_center/notice?id=5239",
+      "network": null,
+      "announced_at": 1750064685000
+    },
+    {
+      "deposit_at": 1750060800000,
+      "trade_at": 1750150800000,
+      "exchange": "coinone",
+      "base": "CHILLGUY",
+      "url": "https://coinone.co.kr/info/notice/4177",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1750060796636
+    },
+    {
+      "deposit_at": 1750042800000,
+      "trade_at": 1750215600000,
+      "exchange": "coinone",
+      "base": "GXA",
+      "url": "https://coinone.co.kr/info/notice/4172",
+      "network": null,
+      "announced_at": 1750042801554
+    },
+    {
+      "deposit_at": 1749801600000,
+      "trade_at": 1750042800000,
+      "exchange": "coinone",
+      "base": "HAEDAL",
+      "url": "https://coinone.co.kr/info/notice/4168",
+      "network": "Sui Network",
+      "announced_at": 1749801602372
+    },
+    {
+      "deposit_at": 1749708000000,
+      "trade_at": 1749805200000,
+      "exchange": "coinone",
+      "base": "PUNDIX",
+      "url": "https://coinone.co.kr/info/notice/4160",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1749708354023
+    },
+    {
+      "deposit_at": 1749632400000,
+      "trade_at": 1749718800000,
+      "exchange": "coinone",
+      "base": "PUNDIAI",
+      "url": "https://coinone.co.kr/info/notice/4155",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1749632407406
+    },
+    {
+      "deposit_at": 1749530460000,
+      "trade_at": 1749538800000,
+      "exchange": "upbit",
+      "base": "AXL",
+      "url": "https://upbit.com/service_center/notice?id=5218",
+      "network": "Ethereum",
+      "announced_at": 1749530472000
+    },
+    {
+      "deposit_at": 1749531600000,
+      "trade_at": 1749546000000,
+      "exchange": "bithumb",
+      "base": "POKT",
+      "url": "https://feed.bithumb.com/notice/1648786",
+      "network": "Solana, Pocket Network",
+      "announced_at": 1749521682000
+    },
+    {
+      "deposit_at": 1749531600000,
+      "trade_at": 1749538800000,
+      "exchange": "bithumb",
+      "base": "WIF",
+      "url": "https://feed.bithumb.com/notice/1648786",
+      "network": "Solana, Pocket Network",
+      "announced_at": 1749521682000
+    },
+    {
+      "deposit_at": 1749454800000,
+      "trade_at": 1749610800000,
+      "exchange": "coinone",
+      "base": "AL",
+      "url": "https://coinone.co.kr/info/notice/4138",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1749454804069
+    },
+    {
+      "deposit_at": 1749114000000,
+      "trade_at": 1749438000000,
+      "exchange": "coinone",
+      "base": "SYRUP",
+      "url": "https://coinone.co.kr/info/notice/4128",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1749114015513
+    },
+    {
+      "deposit_at": 1749096180000,
+      "trade_at": 1749110400000,
+      "exchange": "upbit",
+      "base": "RVN",
+      "url": "https://upbit.com/service_center/notice?id=5204",
+      "network": "Ravencoin",
+      "announced_at": 1749107001000
+    },
+    {
+      "deposit_at": 1749102060000,
+      "trade_at": 1749119400000,
+      "exchange": "bithumb",
+      "base": "LA",
+      "url": "https://feed.bithumb.com/notice/1648753",
+      "network": "Ethereum",
+      "announced_at": 1749091292000
+    },
+    {
+      "deposit_at": 1749034800000,
+      "trade_at": 1749085200000,
+      "exchange": "coinone",
+      "base": "LA",
+      "url": "https://coinone.co.kr/info/notice/4119",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1749034817008
+    },
+    {
+      "deposit_at": 1748862000000,
+      "trade_at": 1749016800000,
+      "exchange": "coinone",
+      "base": "PORT3",
+      "url": "https://coinone.co.kr/info/notice/4113",
+      "network": null,
+      "announced_at": 1748862009809
+    },
+    {
+      "deposit_at": 1748856000000,
+      "trade_at": 1748858400000,
+      "exchange": "bithumb",
+      "base": "SOPH",
+      "url": "https://feed.bithumb.com/notice/1648718",
+      "network": "Sophon",
+      "announced_at": 1748848851000
+    },
+    {
+      "deposit_at": 1748599200000,
+      "trade_at": 1748833200000,
+      "exchange": "coinone",
+      "base": "HIPPO",
+      "url": "https://coinone.co.kr/info/notice/4105",
+      "network": "Sui Network",
+      "announced_at": 1748599181639
+    },
+    {
+      "deposit_at": 1748588400000,
+      "trade_at": 1748595600000,
+      "exchange": "bithumb",
+      "base": "INIT",
+      "url": "https://feed.bithumb.com/notice/1648697",
+      "network": "BASE",
+      "announced_at": 1748583102000
+    },
+    {
+      "deposit_at": 1748590260000,
+      "trade_at": 1748601000000,
+      "exchange": "bithumb",
+      "base": "FLOCK",
+      "url": "https://feed.bithumb.com/notice/1648697",
+      "network": "BASE",
+      "announced_at": 1748583102000
+    },
+    {
+      "deposit_at": 1748574900000,
+      "trade_at": 1748592000000,
+      "exchange": "upbit",
+      "base": "LPT",
+      "url": "https://upbit.com/service_center/notice?id=5183",
+      "network": null,
+      "announced_at": 1748574900000
+    },
+    {
+      "deposit_at": 1748574900000,
+      "trade_at": 1748599200000,
+      "exchange": "upbit",
+      "base": "POKT",
+      "url": "https://upbit.com/service_center/notice?id=5183",
+      "network": null,
+      "announced_at": 1748574900000
+    },
+    {
+      "deposit_at": 1748512800000,
+      "trade_at": 1748595600000,
+      "exchange": "coinone",
+      "base": "COOKIE",
+      "url": "https://coinone.co.kr/info/notice/4095",
+      "network": "BNB Smart Chain (BEP-20)",
+      "announced_at": 1748512815795
+    },
+    {
+      "deposit_at": 1748496600000,
+      "trade_at": 1748505600000,
+      "exchange": "bithumb",
+      "base": "XTER",
+      "url": "https://feed.bithumb.com/notice/1648688",
+      "network": "BNB Smart Chain",
+      "announced_at": 1748485622000
+    },
+    {
+      "deposit_at": 1748426400000,
+      "trade_at": 1748509200000,
+      "exchange": "coinone",
+      "base": "SKYAI",
+      "url": "https://coinone.co.kr/info/notice/4094",
+      "network": "BNB Smart Chain (BEP-20)",
+      "announced_at": 1748426405483
+    },
+    {
+      "deposit_at": 1748412000000,
+      "trade_at": 1748422800000,
+      "exchange": "bithumb",
+      "base": "B3",
+      "url": "https://feed.bithumb.com/notice/1648648",
+      "network": "Base",
+      "announced_at": 1748400551000
+    },
+    {
+      "deposit_at": 1748336400000,
+      "trade_at": 1748422800000,
+      "exchange": "coinone",
+      "base": "BLUE",
+      "url": "https://coinone.co.kr/info/notice/4085",
+      "network": "Sui Network",
+      "announced_at": 1748336403989
+    },
+    {
+      "deposit_at": 1748437200000,
+      "trade_at": 1748437200000,
+      "exchange": "upbit",
+      "base": "SOPH",
+      "url": "https://upbit.com/service_center/notice?id=5171",
+      "network": "Sophon Chain",
+      "announced_at": 1748332921000
+    },
+    {
+      "deposit_at": 1748253600000,
+      "trade_at": 1748307600000,
+      "exchange": "coinone",
+      "base": "HUMA",
+      "url": "https://coinone.co.kr/info/notice/4082",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1748253608607
+    },
+    {
+      "deposit_at": 1747992600000,
+      "trade_at": 1748250000000,
+      "exchange": "coinone",
+      "base": "DRIFT",
+      "url": "https://coinone.co.kr/info/notice/4078",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1747992617999
+    },
+    {
+      "deposit_at": 1747983600000,
+      "trade_at": 1747998000000,
+      "exchange": "bithumb",
+      "base": "SOON",
+      "url": "https://feed.bithumb.com/notice/1648571",
+      "network": "Solana",
+      "announced_at": 1747970089000
+    },
+    {
+      "deposit_at": 1747962000000,
+      "trade_at": 1747994400000,
+      "exchange": "coinone",
+      "base": "SONIC",
+      "url": "https://coinone.co.kr/info/notice/4075",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1747961704193
+    },
+    {
+      "deposit_at": 1747899000000,
+      "trade_at": 1747904400000,
+      "exchange": "bithumb",
+      "base": "BLUE",
+      "url": "https://feed.bithumb.com/notice/1648533",
+      "network": "Sui",
+      "announced_at": 1747891632000
+    },
+    {
+      "deposit_at": 1747875600000,
+      "trade_at": 1747904400000,
+      "exchange": "coinone",
+      "base": "ACX",
+      "url": "https://coinone.co.kr/info/notice/4071",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1747873806687
+    },
+    {
+      "deposit_at": 1747803600000,
+      "trade_at": 1747807200000,
+      "exchange": "upbit",
+      "base": "OM",
+      "url": "https://upbit.com/service_center/notice?id=5144",
+      "network": "MANTRA",
+      "announced_at": 1747795529000
+    },
+    {
+      "deposit_at": 1747789200000,
+      "trade_at": 1747800000000,
+      "exchange": "coinone",
+      "base": "MOODENG",
+      "url": "https://coinone.co.kr/info/notice/4062",
+      "network": "Solana Network (SPL)",
+      "announced_at": 1747787407957
+    },
+    {
+      "deposit_at": 1747717200000,
+      "trade_at": 1747728000000,
+      "exchange": "bithumb",
+      "base": "PROMPT",
+      "url": "https://feed.bithumb.com/notice/1648444",
+      "network": "BASE",
+      "announced_at": 1747708061000
+    },
+    {
+      "deposit_at": 1747616400000,
+      "trade_at": 1747652400000,
+      "exchange": "coinone",
+      "base": "SAFE",
+      "url": "https://coinone.co.kr/info/notice/4052",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1747614614316
+    },
+    {
+      "deposit_at": 1747360800000,
+      "trade_at": 1747371600000,
+      "exchange": "coinone",
+      "base": "DOOD",
+      "url": "https://coinone.co.kr/info/notice/4048",
+      "network": "Solana Network(SPL)",
+      "announced_at": 1747359021374
+    },
+    {
+      "deposit_at": 1747357200000,
+      "trade_at": 1747623600000,
+      "exchange": "coinone",
+      "base": "VIRTUAL",
+      "url": "https://coinone.co.kr/info/notice/4047",
+      "network": "Base Mainnet (BASE ERC-20)",
+      "announced_at": 1747355415910
+    },
+    {
+      "deposit_at": 1747270800000,
+      "trade_at": 1747319400000,
+      "exchange": "coinone",
+      "base": "NXPC",
+      "url": "https://coinone.co.kr/info/notice/4043",
+      "network": "Avalanche C-Chain",
+      "announced_at": 1747270804213
+    },
+    {
+      "deposit_at": 1747209900000,
+      "trade_at": 1747301400000,
+      "exchange": "upbit",
+      "base": "NXPC",
+      "url": "https://upbit.com/service_center/notice?id=5118",
+      "network": "Avalanche C-Chain",
+      "announced_at": 1747187322000
+    },
+    {
+      "deposit_at": 1747184400000,
+      "trade_at": 1747278000000,
+      "exchange": "coinone",
+      "base": "ZKJ",
+      "url": "https://coinone.co.kr/info/notice/4037",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1747182627685
+    },
+    {
+      "deposit_at": 1747125000000,
+      "trade_at": 1747130400000,
+      "exchange": "coinone",
+      "base": "KAITO",
+      "url": "https://coinone.co.kr/info/notice/4034",
+      "network": "Base Mainnet (BASE ERC-20)",
+      "announced_at": 1747125000000
+    },
+    {
+      "deposit_at": 1747123200000,
+      "trade_at": 1747126800000,
+      "exchange": "bithumb",
+      "base": "SXT",
+      "url": "https://feed.bithumb.com/notice/1648416",
+      "network": "Ethereum",
+      "announced_at": 1747113516000
+    },
+    {
+      "deposit_at": 1747098000000,
+      "trade_at": 1747191600000,
+      "exchange": "coinone",
+      "base": "AQT",
+      "url": "https://coinone.co.kr/info/notice/4032",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1747096211600
+    },
+    {
+      "deposit_at": 1747217400000,
+      "trade_at": 1747296000000,
+      "exchange": "bithumb",
+      "base": "NXPC",
+      "url": "https://feed.bithumb.com/notice/1648409",
+      "network": "Avalanche C-Chain",
+      "announced_at": 1747035435000
+    },
+    {
+      "deposit_at": 1746774000000,
+      "trade_at": 1746781200000,
+      "exchange": "upbit",
+      "base": "PENGU",
+      "url": "https://upbit.com/service_center/notice?id=5104",
+      "network": "Solana",
+      "announced_at": 1746770400000
+    },
+    {
+      "deposit_at": 1746696600000,
+      "trade_at": 1746698400000,
+      "exchange": "upbit",
+      "base": "TIA",
+      "url": "https://upbit.com/service_center/notice?id=5100",
+      "network": "Celestia",
+      "announced_at": 1746689175000
+    },
+    {
+      "deposit_at": 1746676800000,
+      "trade_at": 1746694800000,
+      "exchange": "bithumb",
+      "base": "EPT",
+      "url": "https://feed.bithumb.com/notice/1648386",
+      "network": "Ethereum",
+      "announced_at": 1746670673000
+    },
+    {
+      "deposit_at": 1746676800000,
+      "trade_at": 1746691200000,
+      "exchange": "bithumb",
+      "base": "PARTI",
+      "url": "https://feed.bithumb.com/notice/1648386",
+      "network": "BNB Smart Chain",
+      "announced_at": 1746670673000
+    },
+    {
+      "deposit_at": 1746666000000,
+      "trade_at": 1746759600000,
+      "exchange": "coinone",
+      "base": "HYPER",
+      "url": "https://coinone.co.kr/info/notice/4013",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1746664223936
+    },
+    {
+      "deposit_at": 1746579600000,
+      "trade_at": 1746673200000,
+      "exchange": "coinone",
+      "base": "BOUNTY",
+      "url": "https://coinone.co.kr/info/notice/4005",
+      "network": "Arbitrum One Mainnet (ARBITRUM ONE ERC-20)",
+      "announced_at": 1746577813824
+    },
+    {
+      "deposit_at": 1746493200000,
+      "trade_at": 1746540000000,
+      "exchange": "coinone",
+      "base": "COW",
+      "url": "https://coinone.co.kr/info/notice/4003",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1746491410222
+    },
+    {
+      "deposit_at": 1746165600000,
+      "trade_at": 1746176400000,
+      "exchange": "bithumb",
+      "base": "HAEDAL",
+      "url": "https://feed.bithumb.com/notice/1648372",
+      "network": "Sui",
+      "announced_at": 1746156101000
+    },
+    {
+      "deposit_at": 1745996400000,
+      "trade_at": 1746003600000,
+      "exchange": "bithumb",
+      "base": "SIGN",
+      "url": "https://feed.bithumb.com/notice/1648361",
+      "network": "BASE",
+      "announced_at": 1745993055000
+    },
+    {
+      "deposit_at": 1745923200000,
+      "trade_at": 1745982000000,
+      "exchange": "coinone",
+      "base": "SIGN",
+      "url": "https://coinone.co.kr/info/notice/3984",
+      "network": "Base Mainnet (BASE ERC-20)",
+      "announced_at": 1745917207721
+    },
+    {
+      "deposit_at": 1745917820000,
+      "trade_at": 1745918420000,
+      "exchange": "upbit",
+      "base": "SIGN",
+      "url": "https://upbit.com/service_center/notice?id=5076",
+      "network": "Base",
+      "announced_at": 1745907902000
+    },
+    {
+      "deposit_at": 1745902800000,
+      "trade_at": 1745917200000,
+      "exchange": "bithumb",
+      "base": "AI16Z",
+      "url": "https://feed.bithumb.com/notice/1648304",
+      "network": "Solana",
+      "announced_at": 1745892725000
+    },
+    {
+      "deposit_at": 1745803800000,
+      "trade_at": 1745838000000,
+      "exchange": "coinone",
+      "base": "ZORA",
+      "url": "https://coinone.co.kr/info/notice/3976",
+      "network": "Base Mainnet (BASE ERC-20)",
+      "announced_at": 1745802010840
+    },
+    {
+      "deposit_at": 1745555400000,
+      "trade_at": 1745571600000,
+      "exchange": "bithumb",
+      "base": "XYO",
+      "url": "https://feed.bithumb.com/notice/1648288",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1745547907000
+    },
+    {
+      "deposit_at": 1745555400000,
+      "trade_at": 1745564400000,
+      "exchange": "bithumb",
+      "base": "GRASS",
+      "url": "https://feed.bithumb.com/notice/1648288",
+      "network": "Solana",
+      "announced_at": 1745547907000
+    },
+    {
+      "deposit_at": 1745461800000,
+      "trade_at": 1745492400000,
+      "exchange": "coinone",
+      "base": "INIT",
+      "url": "https://coinone.co.kr/info/notice/3963",
+      "network": "Initia (Mainnet)",
+      "announced_at": 1745461811625
+    },
+    {
+      "deposit_at": 1745404200000,
+      "trade_at": 1745463600000,
+      "exchange": "coinone",
+      "base": "AERGO",
+      "url": "https://coinone.co.kr/info/notice/3961",
+      "network": "Ethereum Network (ERC-20)",
+      "announced_at": 1745404208893
+    },
+    {
+      "deposit_at": 1745307000000,
+      "trade_at": 1745312400000,
+      "exchange": "bithumb",
+      "base": "PUMPBTC",
+      "url": "https://feed.bithumb.com/notice/1648238",
+      "network": "BNB Smart Chain",
+      "announced_at": 1745299805000
+    },
+    {
+      "deposit_at": 1745297880000,
+      "trade_at": 1745299800000,
+      "exchange": "upbit",
+      "base": "DEEP",
+      "url": "https://upbit.com/service_center/notice?id=5055",
+      "network": "Sui",
+      "announced_at": 1745297880000
+    },
+    {
+      "deposit_at": 1744967700000,
+      "trade_at": 1744974000000,
+      "exchange": "coinone",
+      "base": "WCT",
+      "url": "https://coinone.co.kr/info/notice/3955",
+      "network": "Optimism",
+      "announced_at": 1744967579560
+    },
+    {
+      "deposit_at": 1744795950000,
+      "trade_at": 1744797600000,
+      "exchange": "bithumb",
+      "base": "WCT",
+      "url": "https://feed.bithumb.com/notice/1648153",
+      "network": "Optimism",
+      "announced_at": 1744792350000
+    },
+    {
+      "deposit_at": 1744786800000,
+      "trade_at": 1744794000000,
+      "exchange": "upbit",
+      "base": "WCT",
+      "url": "https://upbit.com/service_center/notice?id=5041",
+      "network": "Optimism",
+      "announced_at": 1744781950000
+    },
+    {
+      "deposit_at": 1744776000000,
+      "trade_at": 1744799400000,
+      "exchange": "coinone",
+      "base": "GM",
+      "url": "https://coinone.co.kr/info/notice/3940",
+      "network": "BNB Smart Chain (BEP-20)",
+      "announced_at": 1744774203407
+    },
+    {
+      "deposit_at": 1744779600000,
+      "trade_at": 1744786800000,
+      "exchange": "bithumb",
+      "base": "KERNEL",
+      "url": "https://feed.bithumb.com/notice/1645285",
+      "network": "Ethereum (ERC-20)",
+      "announced_at": 1744773314000
+    },
+    {
+      "deposit_at": 1744585200000,
+      "trade_at": 1744686000000,
+      "exchange": "coinone",
+      "base": "KERNEL",
+      "url": "https://coinone.co.kr/info/notice/3927",
+      "network": "Ethereum (ERC-20)",
+      "announced_at": 1744585217033
+    },
+    {
+      "deposit_at": 1744279200000,
+      "trade_at": 1744333200000,
+      "exchange": "coinone",
+      "base": "BABY",
+      "url": "https://coinone.co.kr/info/notice/3922",
+      "network": "Babylon (Mainnet)",
+      "announced_at": 1744276954825
+    },
+    {
+      "deposit_at": 1744279200000,
+      "trade_at": 1744369200000,
+      "exchange": "bithumb",
+      "base": "BABY",
+      "url": "https://feed.bithumb.com/notice/1648119",
+      "network": "Babylon (Mainnet)",
+      "announced_at": 1744268680000
+    },
+    {
+      "deposit_at": 1743751800000,
+      "trade_at": 1743757482000,
+      "exchange": "upbit",
+      "base": "FIL",
+      "url": "https://upbit.com/service_center/notice?id=5015",
+      "network": "Filecoin",
+      "announced_at": 1743750240000
+    },
+    {
+      "deposit_at": 1743440400000,
+      "trade_at": 1743447600000,
+      "exchange": "bithumb",
+      "base": "REZ",
+      "url": "https://feed.bithumb.com/notice/1648053",
+      "network": "Ethereum",
+      "announced_at": 1743475603000
+    },
+    {
+      "deposit_at": 1743137580000,
+      "trade_at": 1743183600000,
+      "exchange": "bithumb",
+      "base": "ORCA",
+      "url": "https://feed.bithumb.com/notice/1647899",
+      "network": "Solana",
+      "announced_at": 1743126828000
+    },
+    {
+      "deposit_at": 1711543200000,
+      "trade_at": 1743120000000,
+      "exchange": "upbit",
+      "base": "WAL",
+      "url": "https://upbit.com/service_center/notice?id=4992",
+      "network": "Sui",
+      "announced_at": 1743058555000
+    },
+    {
+      "deposit_at": 1743194400000,
+      "trade_at": 1743195600000,
+      "exchange": "coinone",
+      "base": "WAL",
+      "url": "https://coinone.co.kr/info/notice/3879",
+      "network": "Sui Network",
+      "announced_at": 1743044408710
+    },
+    {
+      "deposit_at": 1743091200000,
+      "trade_at": 1743094800000,
+      "exchange": "bithumb",
+      "base": "WAL",
+      "url": "https://feed.bithumb.com/notice/1647626",
+      "network": "Sui",
+      "announced_at": 1743044120000
+    },
+    {
+      "deposit_at": 1742879520000,
+      "trade_at": 1742880000000,
+      "exchange": "bithumb",
+      "base": "NIL",
+      "url": "https://feed.bithumb.com/notice/1647608",
+      "network": "Nillion",
+      "announced_at": 1742871437000
+    },
+    {
+      "deposit_at": 1742879534000,
+      "trade_at": 1742880000000,
+      "exchange": "bithumb",
+      "base": "RED",
+      "url": "https://feed.bithumb.com/notice/1647608",
+      "network": "Nillion",
+      "announced_at": 1742871437000
+    },
+    {
+      "deposit_at": 1741766400000,
+      "trade_at": 1711027200000,
+      "exchange": "upbit",
+      "base": "ORCA",
+      "url": "https://upbit.com/service_center/notice?id=4973",
+      "network": "Solana",
+      "announced_at": 1742533049000
+    },
+    {
+      "deposit_at": 1742271300000,
+      "trade_at": 1742281200000,
+      "exchange": "bithumb",
+      "base": "BMT",
+      "url": "https://feed.bithumb.com/notice/1647528",
+      "network": "Solana",
+      "announced_at": 1742264105000
+    },
+    {
+      "deposit_at": 1741662000000,
+      "trade_at": 1741708800000,
+      "exchange": "bithumb",
+      "base": "ELX",
+      "url": "https://feed.bithumb.com/notice/1647319",
+      "network": "Ethereum",
+      "announced_at": 1741659633000
+    },
+    {
+      "deposit_at": 1741320000000,
+      "trade_at": 1741327200000,
+      "exchange": "bithumb",
+      "base": "AVL",
+      "url": "https://feed.bithumb.com/notice/1647259",
+      "network": "Ethereum",
+      "announced_at": 1741312784000
+    },
+    {
+      "deposit_at": null,
+      "trade_at": 1709628000000,
+      "exchange": "upbit",
+      "base": "KAITO",
+      "url": "https://upbit.com/service_center/notice?id=4928",
+      "network": "Base",
+      "announced_at": 1741142839000
+    },
+    {
+      "deposit_at": 1740028800000,
+      "trade_at": 1740033000000,
+      "exchange": "bithumb",
+      "base": "KAITO",
+      "url": "https://feed.bithumb.com/notice/1647094",
+      "network": "Base",
+      "announced_at": 1740019852000
+    },
+    {
+      "deposit_at": 1739438400000,
+      "trade_at": 1739454600000,
+      "exchange": "bithumb",
+      "base": "IP",
+      "url": "https://feed.bithumb.com/notice/1646913",
+      "network": "Story",
+      "announced_at": 1739238989000
+    }
+  ]
+}
