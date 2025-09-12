@@ -171,6 +171,7 @@ fig.update_layout(
     margin=dict(l=60, r=40, t=90, b=80),
     xaxis=dict(title="Exit time", tickformat="%H:%M", nticks=8, range=[win_from, win_to]),
     yaxis=dict(title="Entry time", tickformat="%H:%M", nticks=8, range=[win_to, win_from]),  # reversed
+    height=1080,
 )
 
 # Reference lines (snap to filtered axes)
@@ -203,7 +204,7 @@ fig.add_annotation(x=0.27, y=0.49, xref="paper", yref="paper",
                    text="+", showarrow=False,
                    font=dict(size=72, color="yellow"), opacity=0.4)
 
-st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False}, height=1180)
 
 st.markdown(
     'Data provided by <a href="https://datamaxiplus.com" target="_blank" style="color:#FFFFFF; text-decoration: none;">DataMaxi<span style="color:#F9D342;">+</span></a>',
