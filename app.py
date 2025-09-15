@@ -13,12 +13,7 @@ import plotly.io as pio
 def _sanitize(name: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", name)
 
-pio.defaults.chromium_args = (
-        "--headless",
-        "--no-sandbox",
-        "--single-process",
-        "--disable-gpu"
-    )
+kaleido.get_chrome()
 # ---------------------------
 # Config / constants
 # ---------------------------
