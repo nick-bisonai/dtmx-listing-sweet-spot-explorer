@@ -1,1 +1,1 @@
-plotly_get_chrome
+kaleido_get_chrome
