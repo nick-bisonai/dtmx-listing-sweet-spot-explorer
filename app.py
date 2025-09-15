@@ -231,12 +231,14 @@ fig.update_layout(
 wm_size = max(36, min(0.14 * chart_height, 120))
 
 fig.add_annotation(
-    x=0.13, y=0.1, xref="paper", yref="paper",
+    xref="x domain", yref="y domain",  # stick to the axes area
+    x=0, y=0,                          # bottom-left of the domain
+    xanchor="left", yanchor="bottom",
     text="DataMaxi+",
     showarrow=False,
-    xanchor="center", yanchor="middle",
     font=dict(size=int(wm_size), color="white"),
-    opacity=0.3  # subtle
+    opacity=0.3,
+    xshift=4, yshift=4,                # small padding off the axes
 )
 
 png_bytes = fig.to_image(
