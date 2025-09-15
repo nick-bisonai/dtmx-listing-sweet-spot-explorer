@@ -213,7 +213,7 @@ fig.add_annotation(
     showarrow=False,
     xanchor="center", yanchor="middle",
     font=dict(size=int(wm_size), color="white"),
-    opacity=0.18  # subtle
+    opacity=0.3  # subtle
 )
 st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "responsive": True},)
 
