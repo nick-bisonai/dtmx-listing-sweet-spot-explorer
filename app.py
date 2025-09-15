@@ -116,7 +116,7 @@ for k, rec in listings_map.items():
         continue
     trade_ms = int(rec["trade_at"])
     trade_dt = pd.to_datetime(trade_ms, unit="ms", utc=True)  # or localize if you want
-    # format how you like (here: YYYY-MM-DD HH:MM)
+
     label = f'{k} ({trade_dt:%Y-%m-%d %H:%M %Z})'
     rows.append((trade_ms, label))
 
