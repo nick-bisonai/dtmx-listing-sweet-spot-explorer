@@ -109,14 +109,26 @@ def add_ref_line(fig, *, orientation: str, pos_dt, mat_win: pd.DataFrame,
 listings = get_listings()
 listings_map = {f'{l["exchange"]}-{l["base"]}': l for l in listings["data"]}
 
-entries = []
-for k in listings_map.keys():
-    if not (DATAPATH / f"{k}.csv.gz").exists():
+rows = []
+for k, rec in listings_map.items():
+    path = DATAPATH / f"{k}.csv.gz"
+    if not path.exists():
         continue
-    entries.append(k+f' ({pd.to_datetime(listings_map[k]["trade_at"], unit="ms")})')
+    trade_ms = int(rec["trade_at"])
+    trade_dt = pd.to_datetime(trade_ms, unit="ms", utc=True)  # or localize if you want
+    # format how you like (here: YYYY-MM-DD HH:MM)
+    label = f'{k} ({trade_dt:%Y-%m-%d %H:%M %Z})'
+    rows.append((trade_ms, label))
 
-raw_pair = st.selectbox("Pair", entries)
+# Sort newest first (use reverse=False for oldest first)
+rows.sort(key=lambda x: x[0], reverse=True)
+
+# Final list for the selectbox
+entries = [label for _, label in rows]
+
+raw_pair = st.selectbox("Pair", entries, index=0)  # index=0 selects the newest
 pair = raw_pair.split(" (")[0]
+
 exchange, asset = pair.split("-")
 
 mat = load_matrix(DATAPATH / f"{pair}.csv.gz")
