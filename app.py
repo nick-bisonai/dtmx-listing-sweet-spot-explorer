@@ -11,8 +11,7 @@ import re
 import kaleido
 import plotly.io as pio
 
-await kaleido.get_chrome()
-
+kaleido.get_chrome_sync()
 def _sanitize(name: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", name)
 
