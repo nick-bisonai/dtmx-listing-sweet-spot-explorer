@@ -179,7 +179,7 @@ if screen_height:
 chart_width = 1920
 screen_width = streamlit_js_eval(js_expressions='screen.width', key='SCR_WIDTH')
 if screen_width:
-    chart_width = screen_width * 0.8
+    chart_width = screen_width * 0.95
 
 fig.update_layout(
     title=f"Profit/Return Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
