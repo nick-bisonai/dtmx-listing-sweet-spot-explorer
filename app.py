@@ -163,6 +163,7 @@ fig = go.Figure(go.Heatmap(
     hovertemplate="Entry: %{y|%H:%M}<br>Exit: %{x|%H:%M}<br>Return: %{z:.2f}%<extra></extra>",
 ))
 
+
 fig.update_layout(
     title=f"Profit/Return Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
     paper_bgcolor="rgba(0,0,0,0)",
@@ -171,7 +172,7 @@ fig.update_layout(
     margin=dict(l=60, r=40, t=90, b=80),
     xaxis=dict(title="Exit time", tickformat="%H:%M", nticks=8, range=[win_from, win_to]),
     yaxis=dict(title="Entry time", tickformat="%H:%M", nticks=8, range=[win_to, win_from]),  # reversed
-    height=1080,
+    height= 640,
 )
 
 # Reference lines (snap to filtered axes)
@@ -198,13 +199,10 @@ fig.update_layout(
 
 # Watermark
 fig.add_annotation(x=0.01, y=0.5, xref="paper", yref="paper",
-                   text="DataMaxi", showarrow=False,
+                   text="DataMaxi+", showarrow=False,
                    font=dict(size=72, color="white"), opacity=0.4)
-fig.add_annotation(x=0.27, y=0.49, xref="paper", yref="paper",
-                   text="+", showarrow=False,
-                   font=dict(size=72, color="yellow"), opacity=0.4)
 
-st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False}, height=1180)
+st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "responsive": True},)
 
 st.markdown(
     'Data provided by <a href="https://datamaxiplus.com" target="_blank" style="color:#FFFFFF; text-decoration: none;">DataMaxi<span style="color:#F9D342;">+</span></a>',
