@@ -1,1 +1,1 @@
-kaleido_get_chrome
+chromium
