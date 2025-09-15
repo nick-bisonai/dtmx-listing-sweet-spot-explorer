@@ -205,10 +205,16 @@ fig.update_layout(
 )
 
 # Watermark
-fig.add_annotation(x=0.01, y=0.5, xref="paper", yref="paper",
-                   text="DataMaxi+", showarrow=False,
-                   font=dict(size=72, color="white"), opacity=0.4)
+wm_size = max(36, min(0.14 * chart_height, 120))
 
+fig.add_annotation(
+    x=0.5, y=0.5, xref="paper", yref="paper",
+    text="DataMaxi+",
+    showarrow=False,
+    xanchor="center", yanchor="middle",
+    font=dict(size=int(wm_size), color="white"),
+    opacity=0.18  # subtle
+)
 st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "responsive": True},)
 
 st.markdown(
