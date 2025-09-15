@@ -182,7 +182,7 @@ if screen_width:
     chart_width = screen_width * 0.95
 
 fig.update_layout(
-    title=f"Profit/Return Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
+    title=f"Profit Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
     paper_bgcolor="rgba(0,0,0,1)",
     plot_bgcolor="rgba(0,0,0,1)",
     font=dict(color="white"),
@@ -219,7 +219,7 @@ fig.update_layout(
 wm_size = max(36, min(0.14 * chart_height, 120))
 
 fig.add_annotation(
-    x=0.5, y=0.5, xref="paper", yref="paper",
+    x=0.13, y=0.1, xref="paper", yref="paper",
     text="DataMaxi+",
     showarrow=False,
     xanchor="center", yanchor="middle",
