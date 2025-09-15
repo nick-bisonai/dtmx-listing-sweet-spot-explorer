@@ -194,7 +194,7 @@ if screen_width:
     chart_width = screen_width * 0.95
 
 fig.update_layout(
-    title=f"Profit Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
+    title=f"Profit Heatmap (Entry vs Exit) — {exchange.capitalize()} {asset}<br><sup>{preset_label}</sup>",
     paper_bgcolor="rgba(0,0,0,1)",
     plot_bgcolor="rgba(0,0,0,1)",
     font=dict(color="white"),
