@@ -183,8 +183,8 @@ if screen_width:
 
 fig.update_layout(
     title=f"Profit/Return Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
-    paper_bgcolor="rgba(0,0,0,0)",
-    plot_bgcolor="rgba(0,0,0,0)",
+    paper_bgcolor="rgba(0,0,0,1)",
+    plot_bgcolor="rgba(0,0,0,1)",
     font=dict(color="white"),
     margin=dict(l=60, r=40, t=90, b=80),
     xaxis=dict(type="date", title="Exit time", tickformat="%H:%M", nticks=8),
