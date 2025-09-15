@@ -6,6 +6,9 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
+from streamlit_js_eval import streamlit_js_eval
+
+
 
 # ---------------------------
 # Config / constants
@@ -163,6 +166,10 @@ fig = go.Figure(go.Heatmap(
     hovertemplate="Entry: %{y|%H:%M}<br>Exit: %{x|%H:%M}<br>Return: %{z:.2f}%<extra></extra>",
 ))
 
+chart_height = 800
+screen_height = streamlit_js_eval(js_expressions='screen.height', key='SCR_HEIGHT')
+if screen_height:
+    chart_height = screen_height * 0.6
 
 fig.update_layout(
     title=f"Profit/Return Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
@@ -172,7 +179,7 @@ fig.update_layout(
     margin=dict(l=60, r=40, t=90, b=80),
     xaxis=dict(title="Exit time", tickformat="%H:%M", nticks=8, range=[win_from, win_to]),
     yaxis=dict(title="Entry time", tickformat="%H:%M", nticks=8, range=[win_to, win_from]),  # reversed
-    height= 640,
+    height= chart_height,
 )
 
 # Reference lines (snap to filtered axes)
