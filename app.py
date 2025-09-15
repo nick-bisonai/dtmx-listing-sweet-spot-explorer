@@ -7,8 +7,11 @@ import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
 from streamlit_js_eval import streamlit_js_eval
+import re
+import plotly.io as pio
 
-
+def _sanitize(name: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", name)
 
 # ---------------------------
 # Config / constants
@@ -106,12 +109,14 @@ def add_ref_line(fig, *, orientation: str, pos_dt, mat_win: pd.DataFrame,
 listings = get_listings()
 listings_map = {f'{l["exchange"]}-{l["base"]}': l for l in listings["data"]}
 
-entries = get_data_list()
-if not entries:
-    st.warning("No *.csv.gz heatmap files found in ./data")
-    st.stop()
+entries = []
+for k in listings_map.keys():
+    if not (DATAPATH / f"{k}.csv.gz").exists():
+        continue
+    entries.append(k+f' ({pd.to_datetime(listings_map[k]["trade_at"], unit="ms")})')
 
-pair = st.selectbox("Pair", entries)
+raw_pair = st.selectbox("Pair", entries)
+pair = raw_pair.split(" (")[0]
 exchange, asset = pair.split("-")
 
 mat = load_matrix(DATAPATH / f"{pair}.csv.gz")
@@ -154,8 +159,8 @@ if mat_win.empty:
 # ---------------------------
 # Build figure
 # ---------------------------
-x = mat_win.columns
-y = mat_win.index
+x = mat_win.columns.to_pydatetime().tolist()
+y = mat_win.index.to_pydatetime().tolist()
 z = mat_win.values
 
 fig = go.Figure(go.Heatmap(
@@ -171,16 +176,22 @@ screen_height = streamlit_js_eval(js_expressions='screen.height', key='SCR_HEIGH
 if screen_height:
     chart_height = screen_height * 0.6
 
+chart_width = 1920
+screen_width = streamlit_js_eval(js_expressions='screen.width', key='SCR_WIDTH')
+if screen_width:
+    chart_width = screen_width * 0.8
+
 fig.update_layout(
     title=f"Profit/Return Heatmap (Entry vs Exit) — {exchange} {asset}<br><sup>{preset_label}</sup>",
     paper_bgcolor="rgba(0,0,0,0)",
     plot_bgcolor="rgba(0,0,0,0)",
     font=dict(color="white"),
     margin=dict(l=60, r=40, t=90, b=80),
-    xaxis=dict(title="Exit time", tickformat="%H:%M", nticks=8, range=[win_from, win_to]),
-    yaxis=dict(title="Entry time", tickformat="%H:%M", nticks=8, range=[win_to, win_from]),  # reversed
+    xaxis=dict(type="date", title="Exit time", tickformat="%H:%M", nticks=8),
+    yaxis=dict(type="date", title="Entry time", tickformat="%H:%M", nticks=8, autorange="reversed"),
     height= chart_height,
 )
+
 
 # Reference lines (snap to filtered axes)
 x_ann = nearest_index_val(mat_win.columns, announcement_time)
@@ -215,9 +226,24 @@ fig.add_annotation(
     font=dict(size=int(wm_size), color="white"),
     opacity=0.3  # subtle
 )
+
+png_bytes = fig.to_image(
+    format="png",
+    scale=2,
+    )
+
+
 st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "responsive": True},)
+st.download_button(
+    "⬇️ Download chart (PNG)",
+    data=png_bytes,
+    file_name=f"{pair}.png",
+    mime="image/png",
+    use_container_width=True,
+)
 
 st.markdown(
     'Data provided by <a href="https://datamaxiplus.com" target="_blank" style="color:#FFFFFF; text-decoration: none;">DataMaxi<span style="color:#F9D342;">+</span></a>',
     unsafe_allow_html=True,
 )
+
