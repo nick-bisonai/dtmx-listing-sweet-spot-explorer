@@ -10,7 +10,6 @@ from streamlit_js_eval import streamlit_js_eval
 import re
 import plotly.io as pio
 
-pio.kaleido.scope.chromium_args += ("--single-process",)
 def _sanitize(name: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", name)
 
