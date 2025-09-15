@@ -8,7 +8,10 @@ import streamlit as st
 import plotly.graph_objects as go
 from streamlit_js_eval import streamlit_js_eval
 import re
+import kaleido
 import plotly.io as pio
+
+kaleido.get_chrome()
 
 def _sanitize(name: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", name)
