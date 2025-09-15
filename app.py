@@ -231,9 +231,6 @@ png_bytes = fig.to_image(
     format="png",
     scale=2,
     )
-
-
-st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "responsive": True},)
 st.download_button(
     "⬇️ Download chart (PNG)",
     data=png_bytes,
@@ -241,6 +238,9 @@ st.download_button(
     mime="image/png",
     use_container_width=True,
 )
+
+st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False, "responsive": True},)
+
 
 st.markdown(
     'Data provided by <a href="https://datamaxiplus.com" target="_blank" style="color:#FFFFFF; text-decoration: none;">DataMaxi<span style="color:#F9D342;">+</span></a>',
